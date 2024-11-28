@@ -97,6 +97,8 @@ const NoteCard = ({ note, onUpdateNote, onDeleteNote }: NoteCardProps) => {
                         <option value={1}>Ideas</option>
                         <option value={2}>Por hacer</option>
                         <option value={3}>Terminado</option>
+                        <option value={4}>PorColor</option>
+                        <option value={5}>PorPrioridad</option>
                     </select>
                 </div>
             ) : (

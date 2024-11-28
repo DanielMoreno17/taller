@@ -7,9 +7,11 @@ interface SidebarProps {
 const Sidebar = ({ onFilterChange }: SidebarProps) => {
   const categories = [
     { id: 0, label: "Mostrar todo", color: "bg-gray-400" },
-    { id: 1, label: "Ideas", color: "bg-green_category" },
+    { id: 1, label: "Ideas", color: "bg-green_300" },
     { id: 2, label: "Por hacer", color: "bg-orange_category" },
     { id: 3, label: "Terminado", color: "bg-blue_category" },
+    { id: 4, label: "PorColor", color: "bg-purple_category" },
+    { id: 5, label: "PorPrioridad", color: "bg-black_category" },
   ];
 
   const handleFilterClick = (filterId: number) => {
